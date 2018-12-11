@@ -2,8 +2,6 @@
 
 PImage img;
 
-
-
 void setup() {
 size(600,600);
 background(0,255,255);
@@ -20,17 +18,11 @@ image(img,random(45,200),random(45,250),width/10,height/10);
 img = loadImage("apple.png");
 image(img,random(45,200),random(45,250),width/10,height/10);
 
-
-
-
-
 }
 
 void draw() {
 if(mousePressed) {
   
-  
- 
 noStroke();
   fill(0,255,255);
   quad(325,0,600,0,600,600,325,600);
@@ -59,9 +51,7 @@ image(img,random(325,550),random(0,550),width/10,height/10);
   noStroke();
   fill(0,255,255);
   quad(0,400,100,400,100,600,0,600);
-  
-
-  
+ 
 }else{
   noStroke();
   fill(0,255,255);
