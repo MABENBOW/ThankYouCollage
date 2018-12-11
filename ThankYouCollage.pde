@@ -16,6 +16,8 @@ peeler = loadImage("peeler.jpg");
 }
 
 void draw() {
+
+frameRate(10);
 image(tree,0,0);
 image(apple,random(45,200),random(45,250),width/10,height/10);
 image(apple,random(45,200),random(45,250),width/10,height/10);
