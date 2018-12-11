@@ -13,16 +13,20 @@ apple = loadImage("apple.png");
 victorio = loadImage("victorio.jpg");
 peeler = loadImage("peeler.jpg");
 
+image(tree,0,0);
+
 image(apple,random(45,200),random(45,250),width/10,height/10);
 image(apple,random(45,200),random(45,250),width/10,height/10);
 image(apple,random(45,200),random(45,250),width/10,height/10);
+
+
 
 }
 
 void draw() {
 
 frameRate(5);
-image(tree,0,0);
+
 
 
 if(mousePressed) {
