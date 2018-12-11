@@ -1,6 +1,10 @@
 //add thank you code here
 
 PImage img;
+/* @pjs preload="peeler.png"; /*
+/* @pjs preload="victorio.png"; /*
+/* @pjs preload="apple.png"; /*
+/* @pjs preload="tree.png"; /*
 
 void setup() {
 size(600,600);
