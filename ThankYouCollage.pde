@@ -2,7 +2,7 @@
 
 PImage img;
 
-@pjs preload="peeler.png";
+/* @pjs preload="peeler.png"; /*
 /* @pjs preload="victorio.png"; /*
 /* @pjs preload="apple.png"; /*
 /* @pjs preload="tree.png"; /*
