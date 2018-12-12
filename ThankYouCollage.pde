@@ -21,10 +21,12 @@ void draw() {
 
 frameRate(5);
 
-image(tree,0,0);
-
+noStroke()
 fill(0,255,255);
 quad(0,0,325,0,325,275,0,275);
+
+image(tree,0,0);
+
 
  image(apple,random(45,200),random(45,250),width/10,height/10);
 image(apple,random(45,200),random(45,250),width/10,height/10);
