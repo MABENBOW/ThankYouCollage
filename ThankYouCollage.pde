@@ -13,8 +13,6 @@ apple = loadImage("apple.png");
 victorio = loadImage("victorio.jpg");
 peeler = loadImage("peeler.jpg");
 
-image(tree,0,0);
-
 
 
 }
@@ -24,6 +22,9 @@ void draw() {
 frameRate(5);
 
 image(tree,0,0);
+
+fill(0,100,100);
+quad(0,0,325,0,325,250,0,250);
 
  image(apple,random(45,200),random(45,250),width/10,height/10);
 image(apple,random(45,200),random(45,250),width/10,height/10);
