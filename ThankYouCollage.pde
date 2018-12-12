@@ -23,6 +23,12 @@ void draw() {
 
 frameRate(5);
 
+image(tree,0,0);
+
+ image(apple,random(45,200),random(45,250),width/10,height/10);
+image(apple,random(45,200),random(45,250),width/10,height/10);
+image(apple,random(45,200),random(45,250),width/10,height/10);
+
 
 
 if(mousePressed) {
@@ -31,9 +37,7 @@ noStroke();
   fill(0,255,255);
   quad(325,0,600,0,600,600,325,600);
   
-  image(apple,random(45,200),random(45,250),width/10,height/10);
-image(apple,random(45,200),random(45,250),width/10,height/10);
-image(apple,random(45,200),random(45,250),width/10,height/10);
+ 
 
  
 image(apple,random(325,550),random(0,550),width/10,height/10);
