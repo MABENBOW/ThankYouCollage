@@ -19,7 +19,7 @@ peeler = loadImage("peeler.jpg");
 
 void draw() {
 
-frameRate(5);
+frameRate(3);
 
 noStroke()
 fill(0,255,255);
